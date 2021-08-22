@@ -1,1 +1,3 @@
-### Lectura de sensor ultrasonido (una sola vez) con escritura a base de datos local
+### Reading ultrasonic sensor (one time only)
+distanceread_db saves measurement to local database
+distanceread_ts sends measurement to ThingSpeak
