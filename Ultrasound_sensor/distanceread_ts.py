@@ -42,7 +42,7 @@ try:
 
     # extracting data in json format
     data = r.json()
-    print(data)ASSS
+    print(data)
     print("Record sent to ThingSpeak")
     
 
