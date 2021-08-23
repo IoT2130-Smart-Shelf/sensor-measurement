@@ -15,6 +15,11 @@ SDA = 2
 i2c = busio.I2C(SCL, SDA)
 laser_sensor = av.VL53L0X(i2c)
 
+# Read sensor
+data_laser = laser_linearization(laser_sensor.range)
+
+print("Range: {0}cm".format(data_laser))
+
 PARAMS = { 
             "field2": laser_linearization(laser_sensor.range)}
 
